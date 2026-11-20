@@ -1,0 +1,1 @@
+(() => {const t=document.getElementById('toggle');let dark=false;t.addEventListener('click',()=>{dark=!dark;if(dark){document.documentElement.style.filter='invert(0)';} else {document.documentElement.style.filter='';}});document.querySelectorAll('[href="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();}));})();
